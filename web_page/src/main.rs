@@ -9,7 +9,7 @@ fn input(show_input:String) -> String {
     std::io::stdout().flush().unwrap();
     std::io::stdin().read_line(&mut input_word).expect("Failed to read line");
     input_word=input_word.trim_end().to_string();
-    println!("{}",input_word);
+    // println!("{}",input_word);
     input_word
 }
 
