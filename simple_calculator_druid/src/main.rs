@@ -1,3 +1,4 @@
+use druid::theme::TEXT_COLOR;
 use druid::widget::{Align,  Flex, Label,  TextBox};
 use druid::{AppLauncher, Lens, Data, Widget, WidgetExt, WindowDesc};
 use druid::Color;
@@ -11,25 +12,25 @@ struct Calculator{
 
 fn build_ui() -> impl Widget< Calculator > {
     let label_num1 = Label::new("Enter the first number:")
-    .with_text_color(Color::RED);
+    .with_text_color(Color::RED).with_text_size(20.0);
 
     let textbox_num1 = TextBox::new()
     .with_placeholder("num1").lens(Calculator::num1).background(Color::GREEN);
 
     let label_num2 = Label::new("Enter the second number:")
-    .with_text_color(Color::RED);
+    .with_text_color(Color::RED).with_text_size(20.0);
 
     let textbox_num2 = TextBox::new()
     .with_placeholder("num2").lens(Calculator::num2).background(Color::GREEN);
 
     let label_result = Label::new(|data: &Calculator, _env:&_| format!("Result: {}", add(data.num1.clone(), data.num2.clone())))
-    .with_text_color(Color::BLUE);
+    .with_text_color(Color::BLUE).with_text_size(40.0);
 
-    let layout1 = Flex::column()
+    let layout1 = Flex::row()
         .with_child(label_num1)
         .with_child(textbox_num1);
 
-    let layout2 = Flex::column()
+    let layout2 = Flex::row()
         .with_child(label_num2)
         .with_child(textbox_num2);
 
@@ -42,7 +43,7 @@ fn build_ui() -> impl Widget< Calculator > {
 
 fn main() {
     let main_window = WindowDesc::new(build_ui())
-        .window_size((350.0, 350.0))
+        .window_size((400.0, 300.0))
         .title("My Simple Calculator with Rust and Druid App");
     let initial_data = Calculator{
         num1: "0".into(),
