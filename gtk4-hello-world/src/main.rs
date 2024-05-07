@@ -3,7 +3,7 @@ use gtk4::{glib, Application,ApplicationWindow, Button,Label,Box};
 use std::cell::RefCell;
 use std::rc::Rc;
 
-//写代码还是失败了。每次运行时，第一次按键，还是没有反应，第二次以后都有反应，不知道怎么修改代码，很头疼。
+
 
 const APP_ID: &str = "org.douxiaobo.HelloWorld";
 
@@ -81,17 +81,17 @@ fn build_ui(app: &Application){
         // 强制执行一次事件循环迭代
 
 
-        let is_hello_world = Rc::new(RefCell::new(true));
+    let is_hello_world = Rc::new(RefCell::new(false));
 
-        button.connect_clicked(move |_| {
-            let mut is_hello_world_ref = is_hello_world.borrow_mut();
-            *is_hello_world_ref = !*is_hello_world_ref;
-            let text = if *is_hello_world_ref {
-                "Hello, World!".to_string()
-            } else {
-                "Hello, Rust!".to_string()
-            };
-            label.set_label(&format!("{} {}", text, APP_ID));
-            label.queue_draw();
-        });
+    button.connect_clicked(move |_| {
+        let mut is_hello_world_ref = is_hello_world.borrow_mut();
+        *is_hello_world_ref = !*is_hello_world_ref;
+        let text = if *is_hello_world_ref {
+            "Hello, World!".to_string()
+        } else {
+            "Hello, Rust!".to_string()
+        };
+        label.set_label(&format!("{} {}", text, APP_ID));
+        label.queue_draw();
+    });
 }
