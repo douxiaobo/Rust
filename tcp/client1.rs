@@ -1,6 +1,6 @@
 use std::net::TcpStream;
 use std::io::{Write, Read};
-
+//代码不行
 fn main() {
     let mut stream = TcpStream::connect(("127.0.0.1", 8080)).expect("连接服务器失败");
 
