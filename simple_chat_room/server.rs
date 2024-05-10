@@ -1,6 +1,8 @@
 use std::io::{self, Read, Write};
 use std::net::{TcpListener};
 
+这代码不完美，以后要花些时间修改代码。
+
 fn main() -> io::Result<()> {
     // 直接使用 "localhost" 或 "0.0.0.0" 作为主机名
     let host = "localhost";
@@ -30,7 +32,7 @@ fn main() -> io::Result<()> {
                     if msg.trim() == "byebye" {
                         println!("Client said goodbye.");
                         byebye=true;
-                        
+
                         break;
                     }
 
