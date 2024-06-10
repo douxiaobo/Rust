@@ -1,0 +1,9 @@
+/Users/douxiaobo/Documents/Coding/Practice in Coding/Rust/simple_calculator_relm4/target/debug/deps/libgtk4_macros-7f66442f19af0493.dylib: /Users/douxiaobo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gtk4-macros-0.8.2/src/lib.rs /Users/douxiaobo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gtk4-macros-0.8.2/src/attribute_parser.rs /Users/douxiaobo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gtk4-macros-0.8.2/src/composite_template_derive.rs /Users/douxiaobo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gtk4-macros-0.8.2/src/template_callbacks_attribute.rs /Users/douxiaobo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gtk4-macros-0.8.2/src/util.rs
+
+/Users/douxiaobo/Documents/Coding/Practice in Coding/Rust/simple_calculator_relm4/target/debug/deps/gtk4_macros-7f66442f19af0493.d: /Users/douxiaobo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gtk4-macros-0.8.2/src/lib.rs /Users/douxiaobo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gtk4-macros-0.8.2/src/attribute_parser.rs /Users/douxiaobo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gtk4-macros-0.8.2/src/composite_template_derive.rs /Users/douxiaobo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gtk4-macros-0.8.2/src/template_callbacks_attribute.rs /Users/douxiaobo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gtk4-macros-0.8.2/src/util.rs
+
+/Users/douxiaobo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gtk4-macros-0.8.2/src/lib.rs:
+/Users/douxiaobo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gtk4-macros-0.8.2/src/attribute_parser.rs:
+/Users/douxiaobo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gtk4-macros-0.8.2/src/composite_template_derive.rs:
+/Users/douxiaobo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gtk4-macros-0.8.2/src/template_callbacks_attribute.rs:
+/Users/douxiaobo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gtk4-macros-0.8.2/src/util.rs:
