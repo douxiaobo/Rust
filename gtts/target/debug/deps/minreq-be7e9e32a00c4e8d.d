@@ -1,0 +1,10 @@
+/Users/douxiaobo/Documents/Coding/Practice in Coding/Rust/gtts/target/debug/deps/libminreq-be7e9e32a00c4e8d.rmeta: /Users/douxiaobo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/minreq-2.11.1/src/lib.rs /Users/douxiaobo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/minreq-2.11.1/src/connection.rs /Users/douxiaobo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/minreq-2.11.1/src/error.rs /Users/douxiaobo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/minreq-2.11.1/src/http_url.rs /Users/douxiaobo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/minreq-2.11.1/src/request.rs /Users/douxiaobo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/minreq-2.11.1/src/response.rs
+
+/Users/douxiaobo/Documents/Coding/Practice in Coding/Rust/gtts/target/debug/deps/minreq-be7e9e32a00c4e8d.d: /Users/douxiaobo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/minreq-2.11.1/src/lib.rs /Users/douxiaobo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/minreq-2.11.1/src/connection.rs /Users/douxiaobo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/minreq-2.11.1/src/error.rs /Users/douxiaobo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/minreq-2.11.1/src/http_url.rs /Users/douxiaobo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/minreq-2.11.1/src/request.rs /Users/douxiaobo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/minreq-2.11.1/src/response.rs
+
+/Users/douxiaobo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/minreq-2.11.1/src/lib.rs:
+/Users/douxiaobo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/minreq-2.11.1/src/connection.rs:
+/Users/douxiaobo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/minreq-2.11.1/src/error.rs:
+/Users/douxiaobo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/minreq-2.11.1/src/http_url.rs:
+/Users/douxiaobo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/minreq-2.11.1/src/request.rs:
+/Users/douxiaobo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/minreq-2.11.1/src/response.rs:
