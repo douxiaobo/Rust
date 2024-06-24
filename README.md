@@ -1,7 +1,9 @@
-Practing coding in Rust
+# Practing coding in Rust
 
-Success:
-multiplication_table_up_to_9.rs
+## Success:
+multiplication_table_up_to_9.rs<br>
 
-UnSuccess:
+success in agencalculator_cn1.rs<br>
+
+## UnSuccess:
 simplemath
