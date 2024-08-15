@@ -1,0 +1,5 @@
+hello = "Hello world"
+t_4Cct6Q289b12SkvF47dXIx = "Hello, %{name}"
+
+[messages]
+hello = "Hello, %{name}"

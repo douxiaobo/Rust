@@ -1,0 +1,5 @@
+hello = "你好，世界！"
+t_4Cct6Q289b12SkvF47dXIx = "你好, %{name}"
+
+[messages]
+hello = "你好, %{name}"
